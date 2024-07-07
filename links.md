@@ -20,3 +20,6 @@ I upload most of my maps to PlanetMinecraft, but you will always be able to find
 [PlanetMinecraft](https://www.planetminecraft.com/member/someguynamedjj/)
 # Discord
 I don't have a Discord Server at the moment, but if you see me on any Discord servers under the name someguynamedjj, feel free to say hi, but don't DM me unless you need to.
+# GitHub (Source Code)
+I host this site on GitHub using GitHub Pages and Jekyll, if you would like to see the code for this site, you can look at the Repo and maybe even submit a pull request to fix some of my extremely wierd code for the bits that use code.
+[Repo](https://github.com/SomeGuyNamedJJ/someguynamedjj.github.io) | [My GitHub](https://github.com/SomeGuyNamedJJ)
