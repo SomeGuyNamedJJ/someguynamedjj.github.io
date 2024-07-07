@@ -10,4 +10,4 @@ Hi, I'm SomeGuyNamedJJ, or just JJ and I am a small Minecraft YouTuber and Twitc
 # Navigation
 Until I can make a side/top bar on the site, you can find every page here:
 
-[Links](someguynamedjj.github.io/links)
+[Links](links)
