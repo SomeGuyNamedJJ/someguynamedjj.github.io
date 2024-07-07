@@ -11,3 +11,5 @@ Hi, I'm SomeGuyNamedJJ, or just JJ and I am a small Minecraft YouTuber and Twitc
 Until I can make a side/top bar on the site, you can find every page here:
 
 [Links](links)
+
+[Projects](projects)
