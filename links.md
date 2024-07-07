@@ -3,18 +3,17 @@ layout: default
 title: "Links"
 permalink: /links
 ---
+[< Back to Home](home)
 # Links
 This is the links page, where you can find all of the useful links for things I do.
 # YouTube
 I have two YouTube channels, my main one where I post regular, edited content and my second one where I post things like Stream VODS from my Twitch and extra content of some description.
 
-[Main Channel](https://youtube.com/@someguynamedjj)
-[Second Channel](https://youtube.com/@justsomeguynamedjj)
+[Main Channel](https://youtube.com/@someguynamedjj) | [Second Channel](https://youtube.com/@justsomeguynamedjj)
 # Twitch
 I sometimes stream over on Twitch, I do lots of different things there so I would recommend leaving a follow. Also, if you log into the Streamlabs Link with Twitch, you get access to my version of Channel Points, called Great Bri'ish Pounds since I do not have Affiliate so I can't use Twitch's normal points.
 
-[Twitch](https://twitch.tv/someguynamedjj)
-[Streamlabs (Channel Points)](https://streamlabs.com/someguynamedjj/cloudbot)
+[Twitch](https://twitch.tv/someguynamedjj) | [Streamlabs (Channel Points)](https://streamlabs.com/someguynamedjj/cloudbot)
 # PlanetMinecraft
 I upload most of my maps to PlanetMinecraft, but you will always be able to find more downloads here.
 
