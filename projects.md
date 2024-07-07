@@ -11,6 +11,7 @@ Here is a list of all projects that are currently active:
     {% if category[0] == "active-projects" %}
     {% for post in category[1] %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {{ post.excerpt }}
     {% endfor %}
     {% endif %}
   </ul>
@@ -22,6 +23,7 @@ Here is a list of all projects that are no longer active:
     {% if category[0] == "inactive-projects" %}
     {% for post in category[1] %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {{ post.excerpt }}
     {% endfor %}
     {% endif %}
   </ul>
