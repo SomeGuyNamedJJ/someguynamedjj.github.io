@@ -1,8 +1,7 @@
 ---
 layout: project
-title: "ACC4"
+title: "ACC4: The Spires Of Otherside"
 ---
-# About this Project
 This is a map made for ACC4, a competition made by [AvidMc](https://youtube.com/@AvidMc) in the span of a month in the map made for Part 1 by [Goaty](https://www.planetminecraft.com/project/acc-4-the-spires-of-otherside).
 
 In this map, you must climb your way up Xaleem's Central Tower by defeating Minibosses in some of the outer towers.
