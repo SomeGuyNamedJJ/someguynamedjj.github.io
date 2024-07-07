@@ -10,7 +10,7 @@ Minecraft Version: 1.20.4
 
 [Find this on PlanetMinecraft](https://www.planetminecraft.com/project/acc4-the-spires-of-otherside)
 # Images
-[Image](/assets/projects/ACC4: The Spires Of Otherside/2024-03-26_14.36.36.png)
+![Image](/assets/projects/ACC4: The Spires Of Otherside/2024-03-26_14.36.36.png)
 # Versions
 ## Patch 2 (Latest) (27th March 2024)
 - Fixed Idus Duplication
