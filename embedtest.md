@@ -9,16 +9,7 @@ permalink: /devpage-embedtest1
 
 # Twitch Embed Test
 <span>
-  <div id="twitch-embed"></div>
-    <script src="https://embed.twitch.tv/embed/v1.js"></script>
-    <script type="text/javascript">
-      new Twitch.Embed("twitch-embed", {
-        width: 854,
-        height: 480,
-        channel: "cjya",
-        parent: ["someguynamedjj.github.io"]
-      });
-    </script>
+<div style="padding-bottom: 56.25%; position: relative;"><iframe style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" width="100%" height="100%" src="https://player.twitch.tv/?autoplay=false&channel=gutty_live&parent=someguynamedjj.github.io" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen" ></iframe></div>
 
 ## Discord Embed Test
 <span>
