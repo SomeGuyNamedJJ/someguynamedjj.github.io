@@ -1,5 +1,6 @@
 ---
 layout: project
+permlink: /avidadventures
 title: "Avid Adventures Resource Pack"
 ---
 This is a pack for [AvidMc](https://youtube.com/@AvidMc)'s Patron-Only Adventure Map that aims to make custom textures for as many items as possible.
@@ -11,6 +12,11 @@ To use the pack on the server, you must have [CIT Resewn](https://modrinth.com/m
 Minecraft Version: 1.20.1
 
 [Join the Avid Adventures Resource Pack Discord](https://discord.gg/FSkQRYUvuc)
+# Credits
+While the majority of the pack was created by me, some people contributed by adding textures. Keep in mind that I usually do not accept help unless it is a contribution of fan art to be placed on a painting or an extremely good texture that fits the pack very well. Here is a list of all of the people who have contributed.
+
+**Magic** - [UNRELEASED FEATURE]
+
 # Images
 ![Image](/assets/projects/Avid Adventures Resource Pack/pack.png)
 # Versions
