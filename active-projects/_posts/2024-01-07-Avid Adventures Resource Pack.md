@@ -16,6 +16,9 @@ Minecraft Version: 1.20.1
 While the majority of the pack was created by me, some people contributed by adding textures. Keep in mind that I usually do not accept help unless it is a contribution of fan art to be placed on a painting or an extremely good texture that fits the pack very well. Here is a list of all of the people who have contributed.
 
 **Magic** - [UNRELEASED FEATURE]
+<span>
+  <script src="https://apis.google.com/js/platform.js"></script>
+  <div class="g-ytsubscribe" data-channelid="UCIUtu8fG-NNOAMI1czK9H-A" data-layout="full" data-count="default"></div>
 
 # Images
 ![Image](/assets/projects/Avid Adventures Resource Pack/pack.png)
