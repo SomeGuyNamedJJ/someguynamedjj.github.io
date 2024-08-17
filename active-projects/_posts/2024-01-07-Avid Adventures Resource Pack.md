@@ -1,6 +1,6 @@
 ---
 layout: project
-permalink: /avidadventures
+permalink: /avidpack
 title: "Avid Adventures Resource Pack"
 ---
 This is a pack for [AvidMc](https://youtube.com/@AvidMc)'s Patron-Only Adventure Map that aims to make custom textures for as many items as possible.
