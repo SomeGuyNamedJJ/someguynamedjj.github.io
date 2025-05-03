@@ -8,7 +8,10 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      "Links": "https://an1nterestingname.github.io/Links",
+      "Links": "/Links",
+      "Projects": "/Projects",
+      "Repo": "https://to.1nteresting.name/gh/1nteresting.name",
+      "Theme": "https://catppuccin.com/",
     },
   }),
 }
@@ -16,10 +19,7 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.ConditionalRender({
-      component: Component.Breadcrumbs(),
-      condition: (page) => page.fileData.slug !== "index",
-    }),
+    Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
@@ -37,9 +37,15 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      filterFn: (node) => {
+        const omit = new Set(["tags"])
+        return !omit.has(node.displayName.toLowerCase())
+      },
+    }),
   ],
   right: [
+    Component.DesktopOnly(Component.Graph()),
     Component.DesktopOnly(Component.TableOfContents()),
   ],
 }
@@ -57,6 +63,7 @@ export const defaultListPageLayout: PageLayout = {
           grow: true,
         },
         { Component: Component.Darkmode() },
+        { Component: Component.ReaderMode() },
       ],
     }),
     Component.Explorer(),

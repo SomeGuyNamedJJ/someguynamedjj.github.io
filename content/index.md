@@ -1,8 +1,10 @@
 ---
-title: An1nterestingName
-date: 2025-03-22
+title: Home
+date: 2025-05-03
 ---
 # Welcome!
-Welcome to my website! Here is where I put all of my [social links](Links.md), posts where I talk about a variety of things, like projects I'm making, ideas I've come up with and more. I'll also put any of the projects I work on here for you to look at.
 
-This site is still somewhat under construction, but I'm working on fixing everything up.
+> [!info] This site is under construction.
+> This site is currently under construction and changes are in progress to improve the experience.
+
+Hi, I'm An1nterestingName, but most people call me 1nterestingName or just Name and welcome to my website! Here, you can find my [social links](/Links), [projects I've done](/Projects) and blog posts (coming soon).

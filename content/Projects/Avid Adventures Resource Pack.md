@@ -1,6 +1,9 @@
 ---
 date: 2024-06-09
+tag: Active Project
 ---
+# About this Project
+
 This is a pack for [AvidMc](https://youtube.com/@AvidMc)'s Patron-Only Adventure Map that aims to make custom textures for as many items as possible.
 
 To play Avid Adventures, you need to be a Patron, Discord Subscriber, YouTube Member or Twitch Subscriber of [AvidMc](https://youtube.com/@AvidMc) at the Adventurer Tier (Tier 2 on Twitch).
@@ -9,7 +12,9 @@ To use the pack on the server, you must have [CIT Resewn](https://modrinth.com/m
 
 Minecraft Version: 1.20.1
 
-[Join the Avid Adventures Resource Pack Discord](https://discord.gg/FSkQRYUvuc)
+[Join the Avid Adventures Resource Pack Discord](https://to.1nteresting.name/avidpack/discord)
+
+[View the Avid Adventures Resouce Pack Repository](https://to.1nteresting.name/avidpack/repo)
 # Credits
 While the majority of the pack was created by me, some people contributed by adding textures. Keep in mind that I usually do not accept help unless it is a contribution of fan art to be placed on a painting or an extremely good texture that fits the pack very well. Here is a list of all of the people who have contributed.
 
@@ -18,9 +23,10 @@ While the majority of the pack was created by me, some people contributed by add
 <div class="g-ytsubscribe" data-channelid="UCIUtu8fG-NNOAMI1czK9H-A" data-layout="full" data-count="default"></div>
 
 # Images
-![Image](/assets/projects/Avid Adventures Resource Pack/pack.png)
+![Image](/assets/projects/avidpack_icon.png)
 # Versions
-All released versions are avaliable for archiving purposes. It is not recommended to use anything older than the Latest release.
+> [!info]
+> All released versions are avaliable for archiving purposes. It is not recommended to use anything older than the Latest release.
 
 ## Alpha 0.0.8 (Latest) (9th June 2024)
 - Added custom Textures for the 'High Score' Items
