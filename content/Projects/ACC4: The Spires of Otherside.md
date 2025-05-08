@@ -16,7 +16,7 @@ Minecraft Version: 1.20.4
 
 [Find this on PlanetMinecraft](https://www.planetminecraft.com/project/acc4-the-spires-of-otherside)
 # Images
-![Image](/assets/projects/acc4_preview.png)
+![Image](https://assets.1nteresting.name/acc4_preview.png)
 # Versions
 > [!info]
 > All released versions are avaliable for archiving purposes. It is not recommended to use anything older than the Latest release.

@@ -23,7 +23,7 @@ While the majority of the pack was created by me, some people contributed by add
 <div class="g-ytsubscribe" data-channelid="UCIUtu8fG-NNOAMI1czK9H-A" data-layout="full" data-count="default"></div>
 
 # Images
-![Image](/assets/projects/avidpack_icon.png)
+![Image](https://assets.1nteresting.name/avidpack_icon.png)
 # Versions
 > [!info]
 > All released versions are avaliable for archiving purposes. It is not recommended to use anything older than the Latest release.
