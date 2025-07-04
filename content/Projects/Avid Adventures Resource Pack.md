@@ -1,7 +1,10 @@
 ---
 date: 2024-06-09
-tag: Active Project
+tag: Inactive Project
 ---
+> [!info] This project is now inactive.
+> That means that there will be no more updates to this project unless it is marked as Active again.
+
 # About this Project
 
 This is a pack for [AvidMc](https://youtube.com/@AvidMc)'s Patron-Only Adventure Map that aims to make custom textures for as many items as possible.
