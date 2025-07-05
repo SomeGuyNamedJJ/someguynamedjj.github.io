@@ -24,19 +24,19 @@ Lastly, my real life friends - They helped give opinions on how this site looks,
 
 # Images
 <div class="iframe-wrapper">
-    <iframe src="/index" inert></iframe>
+    <iframe src="/index" inert class="imgframe"></iframe>
 </div>
 <br />
 <br />
 <br />
 <div class="iframe-wrapper">
-    <iframe src="/Projects" inert> </iframe>
+    <iframe src="/Projects" inert class="imgframe"> </iframe>
 </div>
 <br />
 <br />
 <br />
 <div class="iframe-wrapper">
-    <iframe src="/Links" inert> </iframe>
+    <iframe src="/Links" inert class="imgframe"> </iframe>
 </div>
 
 # History
