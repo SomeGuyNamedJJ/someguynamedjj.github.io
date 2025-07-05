@@ -79,6 +79,11 @@ img, .iframe-wrapper {
     border-style: solid;
 }
 
+img {
+    display: block;
+    margin: auto;
+}
+
 .iframe-wrapper {
     width: 100%;
     height: 500px;
