@@ -40,6 +40,65 @@ footer,
   border-radius: 100px !important;
   height: 40px;
   text-align: center;
+
+  z-index: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.search-button::before,
+.darkmode::before,
+.readermode::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  padding: 4px;
+  border-radius: inherit;
+  background: linear-gradient(
+    270deg,
+    var(--secondary),
+    var(--secondary),
+    #4158d0,
+    #c850c0,
+    #c850c0,
+    #4158d0
+  );
+  background-size: 600% 600%;
+  animation: gradientMove 15s linear infinite;
+  z-index: -1;
+
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.search-button:hover::before,
+.darkmode:hover::before,
+.readermode:hover::before {
+  opacity: 1;
 }
 
 .page-title {
