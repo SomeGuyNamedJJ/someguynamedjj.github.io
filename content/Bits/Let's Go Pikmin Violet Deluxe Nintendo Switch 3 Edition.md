@@ -1,7 +1,10 @@
 ---
+title: "Let's Go Pikmin Violet Deluxe: Nintendo Switch 3 Edition"
 date: 2025-07-04
 ---
 ![](https://assets.1nteresting.name/PikminViolet.png)
+
+<br />
 
 I present to you the latest very totally real Nintendo game: Let's Go Pikmin Violet Deluxe: Nintendo Switch 3 Edition!
 
