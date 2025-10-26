@@ -50,3 +50,6 @@ At some point, I decided to move to Quartz, so after a while of setting all of t
 
 ## Neumorphism
 After a while of not touching my site, I had the urge to return, and decided the best move was to add something that set my site apart from many others, and I thought back to when I heard about Neumorphism, and realise it would be the best fit for this site. Over time, I slowly started incorporating it more into the site until the majority of features use it.
+
+## Highly Customised
+After feeling like some of the features built in to Quartz just didn't work well on this site, I decided to add some of my own custom components and apply themes to many existing components. For example, the left sidebar is custom and replaces the Quartz 'Explorer', which is now accessed through an 'All Pages' button. I also cleaned up the home page and fixed issues on mobile.

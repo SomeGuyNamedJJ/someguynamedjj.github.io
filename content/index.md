@@ -1,15 +1,14 @@
 ---
 title: Home
 ---
-# Welcome!
 
-> [!info] This site is under construction.
-> This site is currently under construction and changes are in progress to improve the experience.
+<div style="padding-top: 100px">
+    <h1 style="font-size: 64px; color: var(--secondary)">Hi.</h1>
+    <h1 style="margin-top: 0.5rem;">I'm An1nterestingName.</h1>
+</div>
 
-Hi, I'm An1nterestingName, but most people call me 1nterestingName or just Name and welcome to my website! Here, you can find my [social links](/Links), [projects I've done](/Projects) and blog posts (coming soon).
+Welcome to my website. I develop this site in my free time and am constantly adding new features to it. This is where I put [Social Links](/Links.md) and [Projects I've Made](/Projects/index.md). I made this site using a tool called [Quartz](https://quartz.jzhao.xyz) which I have modified to my needs.
 
-Some examples of things I've made are my personal [URL Shortener](/Projects/URL-Shortener), the [Avid Adventures Resource Pack (discontinued)](/Projects/Avid-Adventures-Resource-Pack) and more.
+Some projects I have created are my personal [URL Shortener](/Projects/URL-Shortener.md) and a large collection of others, although many have remained private. I primarily work on developing applications, whether they are web apps, desktop apps, command lines or games. I work in the usual HTML, CSS and TypeScript on most web projects, occasionally having a backend written in FastAPI. For desktop apps, I work in Rust usually because of the Slint UI framework, but if I'm making a game, I work in Godot with GDScript. Command line tools are typically left to Python, or occasionally Rust.
 
-Alongside technical projects like this, I also enjoy manipulating photos or other images, and often I make silly things, for example, Let's Go Pikmin Violet Deluxe: Nintendo Switch 3 Edition. I also enjoy playing games, and my favourites at the moment are [Minecraft](https://minecraft.net), [Stardew Valley](https://www.stardewvalley.net), [Mario Kart World](https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/Mario-Kart-World-2790000.html), [Tears of the Kingdom](https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-Edition/The-Legend-of-Zelda-Tears-of-the-Kingdom-Nintendo-Switch-2-Edition-2787249.html) and [Beat Saber](https://beatsaber.com).
-
-This site uses a custom theme for [Quartz](https://quartz.jzhao.xyz) based on [Neumorphism](https://en.wikipedia.org/wiki/Neumorphism) and using the [Catppuccin](https://catppuccin.com) color scheme, with dark mode based on Mocha, and light mode based on Latte.
+Alongside my more technical projects, I also enjoy taking/manipulating photos and playing games, such as Minecraft, Mario Kart, Pokemon and Beat Saber. I primarily enjoy more casual games, although I do end up speedrunning some (such as Pikmin, Splatoon and Donkey Kong Bananza).

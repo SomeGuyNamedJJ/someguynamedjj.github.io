@@ -24,6 +24,10 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
   const options: ContentMetaOptions = { ...defaultOptions, ...opts }
 
   function ContentMetadata({ cfg, fileData, displayClass }: QuartzComponentProps) {
+    if (fileData.filePath == "content/index.md") {
+      return null
+    }
+
     const text = fileData.text
 
     if (text) {

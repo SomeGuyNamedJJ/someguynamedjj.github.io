@@ -12,16 +12,18 @@ export default ((opts?: Options) => {
     const links = opts?.links ?? []
     return (
       <footer class={`${displayClass ?? ""}`}>
-        <ul>
-          Useful Links:
+        <div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 5px;">
           {Object.entries(links).map(([text, link]) => (
-            <li>
-              <a href={link}>{text}</a>
-            </li>
+            <div style="margin-top: 4px; margin-bottom: 4px;">
+              <a class="footer-link" href={link}>
+                {text.replace("_", " ")}
+              </a>
+            </div>
           ))}
-        </ul>
+        </div>
         <p>
-          This site was built with <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> (© jackyzha0 {year}) and is hosted on <a href="https://pages.github.com">GitHub Pages</a>.
+          This site was built with <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> (©
+          jackyzha0 {year}) and is hosted on <a href="https://pages.github.com">GitHub Pages</a>.
         </p>
       </footer>
     )

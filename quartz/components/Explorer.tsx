@@ -46,7 +46,7 @@ const defaultOptions: Options = {
       return -1
     }
   },
-  filterFn: (node) => node.slugSegment !== "tags",
+  filterFn: (node) => node.slugSegment !== "tags" && node.slugSegment !== "Explorer",
   order: ["filter", "map", "sort"],
 }
 
@@ -59,10 +59,14 @@ export default ((userOpts?: Partial<Options>) => {
   const opts: Options = { ...defaultOptions, ...userOpts }
   const { OverflowList, overflowListAfterDOMLoaded } = OverflowListFactory()
 
-  const Explorer: QuartzComponent = ({ cfg, displayClass }: QuartzComponentProps) => {
+  const Explorer: QuartzComponent = ({ cfg, displayClass, fileData }: QuartzComponentProps) => {
+    console.log(fileData.filePath)
+    if (fileData.filePath != "content/Explorer.md") {
+      return null
+    }
     return (
       <div
-        class={classNames(displayClass, "explorer")}
+        class={classNames(displayClass, "explorer legacy")}
         data-behavior={opts.folderClickBehavior}
         data-collapsed={opts.folderDefaultState}
         data-savestate={opts.useSavedState}
@@ -94,14 +98,9 @@ export default ((userOpts?: Partial<Options>) => {
             <line x1="4" x2="20" y1="18" y2="18" />
           </svg>
         </button>
-        <button
-          type="button"
-          class="title-button explorer-toggle desktop-explorer"
-          data-mobile={false}
-          aria-expanded={true}
-        >
+        <div class="title-button explorer-toggle desktop-explorer">
           <h2>{opts.title ?? i18n(cfg.locale).components.explorer.title}</h2>
-          <svg
+          {/*<svg
             xmlns="http://www.w3.org/2000/svg"
             width="14"
             height="14"
@@ -114,8 +113,8 @@ export default ((userOpts?: Partial<Options>) => {
             class="fold"
           >
             <polyline points="6 9 12 15 18 9"></polyline>
-          </svg>
-        </button>
+          </svg>*/}
+        </div>
         <div class="explorer-content" aria-expanded={false}>
           <OverflowList class="explorer-ul" />
         </div>

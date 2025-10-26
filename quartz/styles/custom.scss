@@ -25,7 +25,9 @@
 .toc,
 footer,
 .graph,
-.section-ul {
+.section-ul,
+.footer-link:hover,
+.explorer-item:hover {
   background: var(--neu-background) !important;
   box-shadow:
     4px 4px 10px var(--neu-dark),
@@ -36,7 +38,8 @@ footer,
 .search-button,
 .darkmode,
 .readermode,
-.breadcrumb-container {
+.breadcrumb-container,
+.footer-link {
   border-radius: 100px !important;
   height: 40px;
   text-align: center;
@@ -61,13 +64,30 @@ footer,
 .search-button::before,
 .darkmode::before,
 .readermode::before {
-  content: "";
   position: absolute;
   top: -2px;
   left: -2px;
   right: -2px;
   bottom: -2px;
   padding: 4px;
+}
+
+.footer-link::before,
+.explorer-item::before {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  right: -1px;
+  bottom: -1px;
+  padding: 2px;
+}
+
+.search-button::before,
+.darkmode::before,
+.readermode::before,
+.footer-link::before,
+.explorer-item::before {
+  content: "";
   border-radius: inherit;
   background: linear-gradient(
     270deg,
@@ -97,7 +117,9 @@ footer,
 
 .search-button:hover::before,
 .darkmode:hover::before,
-.readermode:hover::before {
+.readermode:hover::before,
+.footer-link:hover::before,
+.explorer-item:hover::before {
   opacity: 1;
 }
 
@@ -126,6 +148,10 @@ footer,
   padding: 10px;
 }
 
+.explorer {
+  z-index: -2;
+}
+
 .section-ul {
   padding-bottom: 2px;
   padding-top: 15px;
@@ -133,16 +159,20 @@ footer,
   margin-top: 0px !important;
 }
 
-.section-li {
+.section-li,
+.explorer-item {
   border-radius: 5px;
   padding: 5px;
+}
+
+.section-li {
   padding-left: 10px;
 }
 
 footer {
   border-radius: 25px;
   padding: 20px;
-  padding-top: 35px;
+  padding-top: 20px;
   padding-bottom: 0px;
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px;
@@ -153,6 +183,13 @@ footer {
 
 footer ul {
   align-items: center; /* This doesn't do what it looks like it does, it makes 'Useful Links' aligned with the links vertically. */
+}
+
+.footer-link {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
 .center {
@@ -208,10 +245,38 @@ img {
 }
 
 .graph > .graph-outer,
-.section-li {
+.section-li,
+.footer-link,
+.explorer-item {
+  background-color: var(--neu-base);
   box-shadow:
     4px 4px 10px var(--neu-dark) inset,
     -4px -4px 10px var(--neu-light) inset;
+}
+
+.explorer-item {
+  border-width: 0px;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.explorer-item.small {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.explorer {
+  padding-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.explorer.legacy {
+  padding-bottom: 5px;
 }
 
 .graph > .graph-outer {
@@ -224,4 +289,35 @@ img {
 
 ul.overflow > li.overflow-end {
   height: 0px !important;
+}
+
+.mobile-only {
+  display: none;
+}
+
+.explorer-toggle > h2 {
+  margin: 0px !important;
+}
+
+@media (max-width: 800px) {
+  .desktop-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: initial;
+  }
+
+  .explorer.mobile-only {
+    display: flex;
+  }
+
+  .center {
+    margin-left: 20px !important;
+  }
+
+  .page-title {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }

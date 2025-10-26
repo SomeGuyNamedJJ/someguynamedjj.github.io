@@ -5,13 +5,13 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [Component.Explorer(), Component.MobileOnly(Component.CustomExplorer())],
   footer: Component.Footer({
     links: {
-      "Links": "/Links",
-      "Projects": "/Projects",
-      "Repo": "https://to.1nteresting.name/gh/1nteresting.name",
-      "Theme": "https://catppuccin.com/",
+      All_Pages: "/Explorer",
+      Repository: "https://to.1nteresting.name/gh/1nteresting.name",
+      Color_Theme: "https://catppuccin.com/",
+      Design_Style: "https://neumorphism.io/",
     },
   }),
 }
@@ -34,18 +34,21 @@ export const defaultContentPageLayout: PageLayout = {
           grow: true,
         },
         { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
+        { Component: Component.DesktopOnly(Component.ReaderMode()) },
       ],
     }),
-    Component.Explorer({
-      filterFn: (node) => {
-        const omit = new Set(["tags"])
-        return !omit.has(node.displayName.toLowerCase())
-      },
-    }),
+    Component.DesktopOnly(Component.CustomExplorer()),
   ],
   right: [
-    Component.DesktopOnly(Component.Graph()),
+    Component.DesktopOnly(
+      Component.Graph({
+        localGraph: {
+          linkDistance: 20,
+          repelForce: 0.1,
+          enableRadial: true,
+        },
+      }),
+    ),
     Component.DesktopOnly(Component.TableOfContents()),
   ],
 }
@@ -66,7 +69,7 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.DesktopOnly(Component.CustomExplorer()),
   ],
   right: [],
 }
