@@ -1,6 +1,11 @@
 ---
+tags:
+  - Inactive-Project
+  - Python
+  - Script
+  - Discord
+  - Py-cord
 date: 2025-01-07
-tag: Inactive Project
 ---
 
 > [!info] This project is now inactive.

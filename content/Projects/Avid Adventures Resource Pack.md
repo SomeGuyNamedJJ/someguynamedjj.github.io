@@ -1,6 +1,9 @@
 ---
+tags: 
+  - Inactive-Project
+  - Minecraft
+  - Resource-Pack
 date: 2024-06-09
-tag: Inactive Project
 ---
 > [!info] This project is now inactive.
 > That means that there will be no more updates to this project unless it is marked as Active again.

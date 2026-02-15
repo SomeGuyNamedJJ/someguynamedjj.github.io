@@ -1,7 +1,10 @@
 ---
+tags:
+  - Inactive-Project
+  - Minecraft
+  - Datapacks
 title: "ACC4: The Spires of Otherside"
 date: 2024-03-27
-tag: Inactive Project
 ---
 
 > [!info] This project is now inactive.

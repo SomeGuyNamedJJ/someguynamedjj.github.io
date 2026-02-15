@@ -1,5 +1,7 @@
 ---
-tag: Active Project
+tags:
+  - Active-Project
+  - Website
 title: 1nteresting.name
 ---
 # About this project
