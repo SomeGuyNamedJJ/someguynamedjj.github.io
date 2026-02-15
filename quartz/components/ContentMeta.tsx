@@ -33,12 +33,16 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
     if (text) {
       const segments: (string | JSX.Element)[] = []
 
-      if (fileData.dates) {
+      const disableDate = ["content/Projects/index.md", "content/Links.md"]
+
+      if (fileData.dates & !disableDate.includes(fileData.filePath)) {
         segments.push(<Date date={getDate(cfg, fileData)!} locale={cfg.locale} />)
       }
 
+      const disableReadingTime = ["content/Projects/index.md", "content/Links.md", "content/tags/Active-Project.md", "content/tags/Inactive-Project.md"]
+
       // Display reading time if enabled
-      if (options.showReadingTime) {
+      if (options.showReadingTime & !disableReadingTime.includes(fileData.filePath)) {
         const { minutes, words: _words } = readingTime(text)
         const displayedTime = i18n(cfg.locale).components.contentMeta.readingTime({
           minutes: Math.ceil(minutes),

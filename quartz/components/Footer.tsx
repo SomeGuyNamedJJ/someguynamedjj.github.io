@@ -12,12 +12,10 @@ export default ((opts?: Options) => {
     const links = opts?.links ?? []
     return (
       <footer class={`${displayClass ?? ""}`}>
-        <div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 5px;">
+        <div class="pill-container">
           {Object.entries(links).map(([text, link]) => (
-            <div style="margin-top: 4px; margin-bottom: 4px;">
-              <a class="footer-link" href={link}>
-                {text.replace("_", " ")}
-              </a>
+            <div class="pill-item">
+              <a href={link}>{text.replace("_", " ")}</a>
             </div>
           ))}
         </div>
