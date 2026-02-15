@@ -10,12 +10,13 @@ export default ((opts?: Options) => {
   const Footer: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
     const year = new Date().getFullYear()
     const links = opts?.links ?? []
+    let re = /\_/gi
     return (
       <footer class={`${displayClass ?? ""}`}>
         <div class="pill-container">
           {Object.entries(links).map(([text, link]) => (
             <div class="pill-item">
-              <a href={link}>{text.replace("_", " ")}</a>
+              <a href={link}>{text.replace(re, " ")}</a>
             </div>
           ))}
         </div>
