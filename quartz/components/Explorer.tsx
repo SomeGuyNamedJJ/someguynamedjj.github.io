@@ -55,6 +55,7 @@ export type FolderState = {
   collapsed: boolean
 }
 
+let numExplorers = 0
 export default ((userOpts?: Partial<Options>) => {
   const opts: Options = { ...defaultOptions, ...userOpts }
   const { OverflowList, overflowListAfterDOMLoaded } = OverflowListFactory()
@@ -81,7 +82,7 @@ export default ((userOpts?: Partial<Options>) => {
           type="button"
           class="explorer-toggle mobile-explorer hide-until-loaded"
           data-mobile={true}
-          aria-controls="explorer-content"
+          aria-controls={id}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
