@@ -12,7 +12,7 @@ export const sharedPageComponents: SharedLayout = {
       Repository: "https://to.1nteresting.name/gh/1nteresting.name",
       Color_Theme: "https://catppuccin.com/",
       Design_Style: "https://neumorphism.io/",
-      Stance_on_Generative_AI: "/Stance_on_Generative_AI"
+      Stance_on_Generative_AI: "/Stance-on-Generative_AI"
     },
   }),
 }
