@@ -135,6 +135,7 @@ footer,
 
 .breadcrumb-container {
   padding-left: 20px;
+  position: initial;
 }
 
 .search-bar {
@@ -320,8 +321,16 @@ ul.overflow > li.overflow-end {
     padding-left: 30px;
     padding-right: 30px;
   }
+
+  footer {
+    margin-top: 40px;
+  }
 }
 
 footer {
   opacity: 1 !important;
+}
+
+.search-button {
+  border-style: none !important;
 }

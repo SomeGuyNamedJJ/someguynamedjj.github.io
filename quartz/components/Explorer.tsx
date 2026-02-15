@@ -82,7 +82,6 @@ export default ((userOpts?: Partial<Options>) => {
           type="button"
           class="explorer-toggle mobile-explorer hide-until-loaded"
           data-mobile={true}
-          aria-controls={id}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
