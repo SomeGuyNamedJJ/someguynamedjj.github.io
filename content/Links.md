@@ -1,6 +1,3 @@
----
-date: 2025-04-02
----
 Below, you can find links to my various socials.
 
 # GitHub
