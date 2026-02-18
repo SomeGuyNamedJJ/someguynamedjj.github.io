@@ -27,8 +27,8 @@ Content featured on this website will display a message stating whether AI-gener
 
 A variant of this message will be displayed at the top of any page that uses Generative AI.
 
-# YouTube
-Content featured on my YouTube channel will always diaplay a disclosure of whether Generative AI was used in that video in the description. An example of that disclosure when a video does not feature AI-generated content is shown below.
+## YouTube
+Content featured on my YouTube channel will always display a disclosure of whether Generative AI was used in that video in the description. An example of that disclosure when a video does not feature AI-generated content is shown below.
 
 > This video does not feature any content created using Generative AI. See [https://to.1nteresting.name/ai](https://to.1nteresting.name/ai) for more information.
 
