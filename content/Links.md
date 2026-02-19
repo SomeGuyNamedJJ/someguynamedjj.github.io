@@ -1,47 +1,39 @@
-Below, you can find links to my various socials.
+Below, you can find various important links. Most people would have this be their entire website, but this is just a footnote here.
 
-# GitHub
-I host most of my code on GitHub, including the code for this site!
-
-<div class="pill-container">
-    <div class="pill-item"><a href="https://to.1nteresting.name/gh">An1nterestingName: GitHub</a></div>
-    <div class="pill-item"><a href="https://to.1nteresting.name/gh/1nteresting.name">This Site's Repository</a></div>
+<div class="links-grid">
+    <a class="platform-container" href="https://to.1nteresting.name/gh" target="_blank">
+        <div class="platform-title">GitHub</div>
+        <div class="username">An1nterestingName</div>
+        For open-source projects made by me, and contributions to open-source projects that I've made.
+    </a>
+    <a class="platform-container" href="https://to.1nteresting.name/yt" target="_blank">
+        <div class="platform-title">YouTube</div>
+        <div class="username">@an1nterestingname</div>
+        Showcases of projects created by me, and anything I feel like posting. I don't use this often at the moment, but plan to.
+    </a>
+    <a class="platform-container" href="https://to.1nteresting.name/twitch" target="_blank">
+        <div class="platform-title">Twitch</div>
+        <div class="username">an1nterestingname</div>
+        Streams, or chatting on others' streams. I don't use this often.
+    </a>
+    <a class="platform-container" href="https://to.1nteresting.name/pmc" target="_blank">
+        <div class="platform-title">PlanetMinecraft</div>
+        <div class="username">An1nterestingName</div>
+        Posting Minecraft Maps and Datapacks. They are also avaliable on this website.
+    </a>
+    <a class="platform-container" href="https://to.1nteresting.name/sp" target="_blank">
+        <div class="platform-title">Speedrun.com</div>
+        <div class="username">An1nterestingName</div>
+        I play games fast. All my runs are avaliable on a playlist on my YouTube channel as well.
+    </a>
+    <a class="platform-container" href="https://to.1nteresting.name/email" target="_blank">
+        <div class="platform-title">Email</div>
+        <div class="username">name@1nteresting.name</div>
+        You can contact me over email. Clicking here will open your default email client after a few seconds.
+    </a>
+    <a class="platform-container" inert>
+        <div class="platform-title">Discord</div>
+        <div class="username">N/A</div>
+        I do not currently have a public Discord server. Please contact me via email instead.
+    </a>
 </div>
-
-# YouTube
-I don't often post on YouTube, but I do have a channel.
-
-<div class="pill-container">
-    <div class="pill-item"><a href="https://to.1nteresting.name/yt">An1nterestingName: YouTube</a></div>
-</div>
-
-# Twitch
-Similarly to YouTube, I don't often use Twitch, but I have an account on there as well.
-
-<div class="pill-container">
-    <div class="pill-item"><a href="https://to.1nteresting.name/twitch">An1nterestingName: Twitch</a></div>
-</div>
-
-# PlanetMinecraft
-I upload my maps and datapacks onto PlanetMinecraft alongside here.
-
-<div class="pill-container">
-    <div class="pill-item"><a href="https://to.1nteresting.name/pmc">An1nterestingName: PlanetMinecraft</a></div>
-</div>
-
-# Speedruns
-I speedrun games occasionally. You can find all of my runs here:
-
-<div class="pill-container">
-    <div class="pill-item"><a href="https://to.1nteresting.name/sp">An1nterestingName: Speedrun.com</a></div>
-</div>
-
-# Email
-If you wish to contact me, please send an email by clicking on the button below. It will open your default email client. Alternatively, enter `name@1nteresting.name` as the recipient.
-
-<div class="pill-container">
-    <div class="pill-item"><a href="https://to.1nteresting.name/email">Email Me</a></div>
-</div>
-
-# Discord
-I do not have a discord server at the moment. If you wish to contact me, please do so via email.

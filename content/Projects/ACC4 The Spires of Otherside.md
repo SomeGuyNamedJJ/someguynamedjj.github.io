@@ -18,7 +18,10 @@ In this map, you must climb your way up Xaleem's Central Tower by defeating Mini
 
 Minecraft Version: 1.20.4
 
-[Find this on PlanetMinecraft](https://www.planetminecraft.com/project/acc4-the-spires-of-otherside)
+<div class="pill-container">
+    <div class="pill-item"><a href="https://www.planetminecraft.com/project/acc4-the-spires-of-otherside">View on PlanetMinecraft</a></div>
+</div>
+
 # Images
 ![Image](https://assets.1nteresting.name/acc4_preview.png)
 # Versions
@@ -30,12 +33,21 @@ Minecraft Version: 1.20.4
 
 - The player's XP is set to 0
 
-[Download](https://www.mediafire.com/file/f6pxk2wlvo6zgl7/ACC4_-_Goaty_and_JJ_Patch_2.zip/file)
+<div class="pill-container">
+    <div class="pill-item"><a href="https://www.mediafire.com/file/f6pxk2wlvo6zgl7/ACC4_-_Goaty_and_JJ_Patch_2.zip/file">Download</a></div>
+</div>
+
 ## Patch 1 (26th March 2024)
 - Added a Glow Effect to Key Items on the ground
 
 - Increased the time between repeatable miniboss waves
 
-[Download](https://www.mediafire.com/file/myad9a65tkfnzin/ACC4_-_Goaty_and_JJ_Patch_1.zip/file)
+<div class="pill-container">
+    <div class="pill-item"><a href="https://www.mediafire.com/file/myad9a65tkfnzin/ACC4_-_Goaty_and_JJ_Patch_1.zip/file">Download</a></div>
+</div>
+
 ## Initial Release (26th March 2024)
-[Download](https://www.mediafire.com/file/fat8xc6952ees1s/ACC4_-_Goaty_and_JJ.zip/file)
+
+<div class="pill-container">
+    <div class="pill-item"><a href="https://www.mediafire.com/file/fat8xc6952ees1s/ACC4_-_Goaty_and_JJ.zip/file">Download</a></div>
+</div>

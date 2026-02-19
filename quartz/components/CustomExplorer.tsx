@@ -10,6 +10,9 @@ export default (() => {
         <a class="explorer-item" href="/Projects">
           Projects
         </a>
+        <a class="explorer-item" href="/Blog">
+          Blog
+        </a>
         <a class="explorer-item" href="/Links">
           Links
         </a>

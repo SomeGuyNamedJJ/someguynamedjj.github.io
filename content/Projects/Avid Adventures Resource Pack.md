@@ -2,7 +2,7 @@
 tags: 
   - Inactive-Project
   - Minecraft
-  - Resource-Pack
+  - Resourcepacks
 date: 2024-06-09
 ---
 > [!info] This project is now inactive.
@@ -18,15 +18,10 @@ To use the pack on the server, you must have [CIT Resewn](https://modrinth.com/m
 
 Minecraft Version: 1.20.1
 
-[Join the Avid Adventures Resource Pack Discord](https://to.1nteresting.name/avidpack/discord)
-
-[View the Avid Adventures Resouce Pack Repository](https://to.1nteresting.name/avidpack/repo)
-# Credits
-While the majority of the pack was created by me, some people contributed by adding textures. Keep in mind that I usually do not accept help unless it is a contribution of fan art to be placed on a painting or an extremely good texture that fits the pack very well. Here is a list of all of the people who have contributed.
-
-**Magic** - [UNRELEASED FEATURE]
-<script src="https://apis.google.com/js/platform.js"></script>
-<div class="g-ytsubscribe" data-channelid="UCIUtu8fG-NNOAMI1czK9H-A" data-layout="full" data-count="default"></div>
+<div class="pill-container">
+    <div class="pill-item"><a href="https://to.1nteresting.name/avidpack/discord">Join the Discord</a></div>
+    <div class="pill-item"><a href="https://to.1nteresting.name/avidpack/repo">View Repository</a></div>
+</div>
 
 # Images
 ![Image](https://assets.1nteresting.name/avidpack_icon.png)
@@ -51,17 +46,26 @@ While the majority of the pack was created by me, some people contributed by add
 
 - Some Paintings now use Fan Art
 
-[Download](https://www.mediafire.com/file/oyxwrmla3fmh53q/%255BAvid_Adventures%255D_v0.0.8.zip/file)
+<div class="pill-container">
+    <div class="pill-item"><a href="https://www.mediafire.com/file/oyxwrmla3fmh53q/%255BAvid_Adventures%255D_v0.0.8.zip/file">Download</a></div>
+</div>
+
 ## ACCESSSIBILITY UPDATE (1st April 2024)
 - Introduced a few Accessibility Features
 
-[Download](https://www.mediafire.com/file/up4tz4ky868wdob/%255BAvid_Aventurea%255D_ACCESSSIBILITY_UPDATE_v0.0.6.zip/file)
+<div class="pill-container">
+    <div class="pill-item"><a href="https://www.mediafire.com/file/up4tz4ky868wdob/%255BAvid_Aventurea%255D_ACCESSSIBILITY_UPDATE_v0.0.6.zip/file">Download</a></div>
+</div>
+
 ## Alpha 0.0.6 (24th February 2024)
 - Added items relating to The Trial of The Pickaxe
 
 - OptiFine is no longer officially supported
 
-[Download](https://www.mediafire.com/file/xm2bg99dbf7fsl2/%255BAvid_Adventures%255D_v0.0.6_ALPHA.zip/file)
+<div class="pill-container">
+    <div class="pill-item"><a href="https://www.mediafire.com/file/xm2bg99dbf7fsl2/%255BAvid_Adventures%255D_v0.0.6_ALPHA.zip/file">Download</a></div>
+</div>
+
 ## Alpha 0.0.5 (20th February 2024)
 - Added texture for Sword of The Wind
 
@@ -69,18 +73,33 @@ While the majority of the pack was created by me, some people contributed by add
 
 - Reorganised folder structure
 
-[Download](https://www.mediafire.com/file/s4lao2hibb1j0wi/%255BAvid_Adventures%255D_v0.0.5_ALPHA.zip/file)
+<div class="pill-container">
+    <div class="pill-item"><a href="https://www.mediafire.com/file/s4lao2hibb1j0wi/%255BAvid_Adventures%255D_v0.0.5_ALPHA.zip/file">Download</a></div>
+</div>
+
 ## Alpha 0.0.4 (23rd January 2024)
 - Added new Crescent Bay Textures
 
-[Download](https://www.mediafire.com/file/glltr9h85alosp1/%255BAvid_Adventures%255D_v0.0.4_ALPHA.zip/file)
+<div class="pill-container">
+    <div class="pill-item"><a href="https://www.mediafire.com/file/glltr9h85alosp1/%255BAvid_Adventures%255D_v0.0.4_ALPHA.zip/file">Download</a></div>
+</div>
+
 ## Alpha 0.0.3 (21st January 2024)
 - Fixed a bug with the Alias' Head Texture
 
-[Download](https://www.mediafire.com/file/l3420a1lruancoe/%255BAvid_Adventures%255D_v0.0.3_ALPHA.zip/file)
+<div class="pill-container">
+    <div class="pill-item"><a href="https://www.mediafire.com/file/l3420a1lruancoe/%255BAvid_Adventures%255D_v0.0.3_ALPHA.zip/file">Download</a></div>
+</div>
+
 ## Alpha 0.0.2 (20th January 2024)
 - Added temporary Alias' Head and Alias' Unbreaking Buckler Textures
 
-[Download](https://www.mediafire.com/file/xuo5dfrn6riighl/%255BAvid_Adventures%255D_v0.0.2_ALPHA.zip/file)
+<div class="pill-container">
+    <div class="pill-item"><a href="https://www.mediafire.com/file/xuo5dfrn6riighl/%255BAvid_Adventures%255D_v0.0.2_ALPHA.zip/file">Download</a></div>
+</div>
+
 ## Alpha 0.0.1 (7th January 2024)
-[Download](https://www.mediafire.com/file/1iavtajogq93miu/%255BAvid_Adventures%255D_v0.0.1_ALPHA.zip/file)
+
+<div class="pill-container">
+    <div class="pill-item"><a href="https://www.mediafire.com/file/1iavtajogq93miu/%255BAvid_Adventures%255D_v0.0.1_ALPHA.zip/file">Download</a></div>
+</div>
