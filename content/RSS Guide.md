@@ -1,5 +1,16 @@
 This site has a blog, which supports RSS Feeds. What this means is that if you have an RSS Reader application, or your device natively has RSS feed support, you can add my site's Blog there.
 
+> [!warning] Some RSS Readers are inaccurate
+> Some RSS Readers can be inaccurate and have issues displaying my Blog. Notable ones I have found to exhibit this are:
+> 
+> - Smart Launcher Feed
+> 
+> - RSS.app
+> 
+> - QiReader
+>
+> If you are using one of these readers and have issues, please **try a different reader** before reporting an issue.
+
 # Add an RSS Feed
 
 To do this, you will first have to navigate to your RSS Reader application and open the menu that allows you to add an RSS Feed. This can change depending on the application you are using.
