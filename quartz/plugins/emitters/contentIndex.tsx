@@ -79,7 +79,7 @@ function generateRSSFeed(
 
       return f1.title.localeCompare(f2.title)
     })
-    .filter(([slug, _content]) => slug.startsWith(path))
+    .filter(([slug, _content]) => slug.startsWith(path) && !slug.includes("index"))
     .map(([slug, content]) => createURLEntry(simplifySlug(slug), content))
     .slice(0, limit ?? idx.size)
     .join("")
