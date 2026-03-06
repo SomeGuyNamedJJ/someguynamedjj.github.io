@@ -35,7 +35,6 @@ const defaultOptions: Options = {
   enableRSS: true,
   rssLimit: 10,
   rssFullHtml: false,
-  rssSlug: "index",
   includeEmptyFiles: true,
 }
 
@@ -51,7 +50,13 @@ function generateSiteMap(cfg: GlobalConfiguration, idx: ContentIndexMap): string
   return `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${urls}</urlset>`
 }
 
-function generateRSSFeed(cfg: GlobalConfiguration, idx: ContentIndexMap, limit?: number): string {
+function generateRSSFeed(
+  path: string,
+  feedDesc: string,
+  cfg: GlobalConfiguration,
+  idx: ContentIndexMap,
+  limit?: number,
+): string {
   const base = cfg.baseUrl ?? ""
 
   const createURLEntry = (slug: SimpleSlug, content: ContentDetails): string => `<item>
@@ -74,6 +79,7 @@ function generateRSSFeed(cfg: GlobalConfiguration, idx: ContentIndexMap, limit?:
 
       return f1.title.localeCompare(f2.title)
     })
+    .filter(([slug, _content]) => slug.startsWith(path) && !slug.includes("index"))
     .map(([slug, content]) => createURLEntry(simplifySlug(slug), content))
     .slice(0, limit ?? idx.size)
     .join("")
@@ -83,9 +89,7 @@ function generateRSSFeed(cfg: GlobalConfiguration, idx: ContentIndexMap, limit?:
     <channel>
       <title>${escapeHTML(cfg.pageTitle)}</title>
       <link>https://${base}</link>
-      <description>${!!limit ? i18n(cfg.locale).pages.rss.lastFewNotes({ count: limit }) : i18n(cfg.locale).pages.rss.recentNotes} on ${escapeHTML(
-        cfg.pageTitle,
-      )}</description>
+      <description>${feedDesc}</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       ${items}
     </channel>
@@ -131,8 +135,14 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
       if (opts?.enableRSS) {
         yield write({
           ctx,
-          content: generateRSSFeed(cfg, linkIndex, opts.rssLimit),
-          slug: (opts?.rssSlug ?? "index") as FullSlug,
+          content: generateRSSFeed(
+            "Blog",
+            "Last 10 Blog Posts from 1nteresting.name",
+            cfg,
+            linkIndex,
+            opts.rssLimit,
+          ),
+          slug: (opts?.rssSlug ?? "blog") as FullSlug,
           ext: ".xml",
         })
       }
@@ -164,7 +174,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
               rel="alternate"
               type="application/rss+xml"
               title="RSS Feed"
-              href={`https://${ctx.cfg.configuration.baseUrl}/index.xml`}
+              href={`https://${ctx.cfg.configuration.baseUrl}/blog.xml`}
             />,
           ],
         }

@@ -33,7 +33,12 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
     if (text) {
       const segments: (string | JSX.Element)[] = []
 
-      const disableDate = ["content/Projects/index.md", "content/Blog/index.md", "content/Links.md"]
+      const disableDate = [
+        "content/Projects/index.md",
+        "content/Blog/index.md",
+        "content/Links.md",
+        "content/RSS Guide.md",
+      ]
 
       if (fileData.dates && !disableDate.includes(fileData.filePath)) {
         segments.push(<Date date={getDate(cfg, fileData)!} locale={cfg.locale} />)

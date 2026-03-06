@@ -10,9 +10,10 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       All_Pages: "/Explorer",
       Repository: "https://to.1nteresting.name/gh/1nteresting.name",
+      Stance_on_Generative_AI: "/Stance-on-Generative-AI",
+      RSS_Feed: "/RSS-Guide",
       Color_Theme: "https://catppuccin.com/",
       Design_Style: "https://neumorphism.io/",
-      Stance_on_Generative_AI: "/Stance-on-Generative-AI"
     },
   }),
 }
