@@ -6,8 +6,6 @@ This site has a blog, which supports RSS Feeds. What this means is that if you h
 > - Smart Launcher Feed
 > 
 > - RSS.app
-> 
-> - QiReader
 >
 > If you are using one of these readers and have issues, please **try a different reader** before reporting an issue.
 
