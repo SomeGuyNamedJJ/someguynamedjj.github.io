@@ -3,6 +3,7 @@ title: Tons of site updates, and a blog!
 date: 2026-02-19
 tags:
   - Website
+  - Update
 ---
 Over the last few days, I've pushed some major updates to this website, alongside introducing this blog!
 
