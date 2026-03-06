@@ -53,6 +53,7 @@ function generateSiteMap(cfg: GlobalConfiguration, idx: ContentIndexMap): string
 function generateRSSFeed(
   path: string,
   feedDesc: string,
+  feedName: string,
   cfg: GlobalConfiguration,
   idx: ContentIndexMap,
   limit?: number,
@@ -87,7 +88,7 @@ function generateRSSFeed(
   return `<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-      <title>${escapeHTML(cfg.pageTitle)}</title>
+      <title>${feedName}</title>
       <link>https://${base}</link>
       <description>${feedDesc}</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
@@ -138,6 +139,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
           content: generateRSSFeed(
             "Blog",
             "Last 10 Blog Posts from 1nteresting.name",
+            "An1nterestingName's Blog",
             cfg,
             linkIndex,
             opts.rssLimit,
