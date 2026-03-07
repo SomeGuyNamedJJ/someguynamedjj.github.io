@@ -1,4 +1,10 @@
+@import url("shared.css");
 main {
+  --neu-background: #1e1e2e;
+
+  --neu-dark: #12121c;
+  --neu-light: #2a2a40;
+
   --color-prettylights-syntax-comment: #9399b2;
   --color-prettylights-syntax-constant: #89b4fa;
   --color-prettylights-syntax-constant-other-reference-link: #89b4fa;
