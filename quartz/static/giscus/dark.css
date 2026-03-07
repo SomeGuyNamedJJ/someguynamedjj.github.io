@@ -1,4 +1,3 @@
-@import url("shared.css");
 main {
   --neu-background: #1e1e2e;
 
@@ -85,4 +84,34 @@ main .gsc-comment-box-textarea::placeholder {
 }
 main .gsc-loading-image {
   background-image: url("https://giscus.catppuccin.com/assets/loading.gif");
+}
+
+.gsc-reactions {
+  padding-top: 10px;
+  margin: auto;
+  padding: 3px 10px 10px 10px;
+  border-radius: 5px;
+  box-shadow:
+    4px 4px 10px var(--neu-dark),
+    -4px -4px -4px var(--neu-light);
+  min-width: 200px;
+}
+
+.btnGroup {
+  background-color: transparent;
+  overflow: visible;
+}
+
+.btnGroup-item {
+  background: var(--neu-background);
+  font-weight: initial;
+  border: transparent;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.btnGroup-item--selected {
+  box-shadow:
+    4px 4px 10px var(--neu-dark),
+    -4px -4px 10px var(--neu-light);
 }
