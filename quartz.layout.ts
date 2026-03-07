@@ -5,7 +5,22 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [Component.Explorer(), Component.MobileOnly(Component.CustomExplorer())],
+  afterBody: [
+    Component.Explorer(),
+    Component.Comments({
+      provider: "giscus",
+      options: {
+        repo: "An1nterestingName/1nteresting.name",
+        repoId: "R_kgDOMS-vzA",
+        category: "Comments",
+        categoryId: "DIC_kwDOMS-vzM4Csi7h",
+        lang: "en",
+        inputPosition: "top",
+        mapping: "pathname",
+      },
+    }),
+    Component.MobileOnly(Component.CustomExplorer()),
+  ],
   footer: Component.Footer({
     links: {
       All_Pages: "/Explorer",

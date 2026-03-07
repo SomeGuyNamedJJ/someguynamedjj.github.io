@@ -1,3 +1,6 @@
+---
+comments: false
+---
 Below, you can find various important links. Most people would have this be their entire website, but this is just a footnote here.
 
 <div class="links-grid">

@@ -1,5 +1,6 @@
 ---
 title: Home
+comments: false
 ---
 
 <div style="padding-top: 100px">

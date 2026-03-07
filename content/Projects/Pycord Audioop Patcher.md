@@ -1,11 +1,12 @@
 ---
+date: 2025-01-07
+comments: false
 tags:
   - Inactive-Project
   - Python
   - Script
   - Discord
   - Pycord
-date: 2025-01-07
 ---
 
 > [!info] This project is now inactive.

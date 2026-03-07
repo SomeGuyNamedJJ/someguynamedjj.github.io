@@ -1,5 +1,6 @@
 ---
 title: Projects
+comments: false
 ---
 This is the list of my projects, sorted by the most recent update to the project. To sort by 'Active' or 'Inactive' Projects, click the buttons below.
 

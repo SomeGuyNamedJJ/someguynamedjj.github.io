@@ -1,6 +1,7 @@
 ---
 title: Tons of site updates, and a blog!
 date: 2026-02-19
+comments: false
 tags:
   - Website
   - Update

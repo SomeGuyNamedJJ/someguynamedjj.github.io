@@ -1,3 +1,6 @@
+---
+comments: false
+---
 This site has a blog, which supports RSS Feeds. What this means is that if you have an RSS Reader application, or your device natively has RSS feed support, you can add my site's Blog there.
 
 > [!warning] Some RSS Readers are inaccurate

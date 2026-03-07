@@ -1,5 +1,6 @@
 ---
 date: 2026-02-15
+comments: false
 ---
 Generative AI is quite a contested topic on the internet, and in this page I will detail my opinions on Generative AI and how I disclose content created by Generative AI.
 
