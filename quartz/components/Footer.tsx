@@ -20,10 +20,19 @@ export default ((opts?: Options) => {
             </div>
           ))}
         </div>
-        <p>
-          This site was built with <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> (©
-          jackyzha0 {year}) and is hosted on <a href="https://pages.github.com">GitHub Pages</a>.
-        </p>
+        <div class="flex-container" style="column-gap: 20px; margin-bottom: 12px; margin-top: 8px;">
+          <p>© An1nterestingName 2024-2026</p>
+          <p>
+            Built with <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> (© jackyzha0 {year}
+            )
+          </p>
+          <p>
+            Hosted on <a href="https://pages.github.com">GitHub Pages</a>
+          </p>
+          <p>
+            Comments (beta) powered by <a href="https://giscus.app">giscus</a>
+          </p>
+        </div>
       </footer>
     )
   }

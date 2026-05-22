@@ -399,3 +399,26 @@ blockquote ul {
   font-weight: bold;
   font-size: 24;
 }
+
+.hide-link {
+  .internal {
+    display: none;
+  }
+}
+
+.search .search-button p {
+  color: var(--darkgray);
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  p {
+    margin: 0px;
+  }
+}
+
+.pill-container p {
+  margin: auto;
+}

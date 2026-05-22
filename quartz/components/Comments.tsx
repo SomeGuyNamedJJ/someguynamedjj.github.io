@@ -36,23 +36,38 @@ export default ((opts: Options) => {
     }
 
     return (
-      <div
-        class={classNames(displayClass, "giscus")}
-        data-repo={opts.options.repo}
-        data-repo-id={opts.options.repoId}
-        data-category={opts.options.category}
-        data-category-id={opts.options.categoryId}
-        data-mapping={opts.options.mapping ?? "url"}
-        data-strict={boolToStringBool(opts.options.strict ?? true)}
-        data-reactions-enabled={boolToStringBool(opts.options.reactionsEnabled ?? true)}
-        data-input-position={opts.options.inputPosition ?? "bottom"}
-        data-light-theme={opts.options.lightTheme ?? "light"}
-        data-dark-theme={opts.options.darkTheme ?? "dark"}
-        data-theme-url={
-          opts.options.themeUrl ?? `https://${cfg.baseUrl ?? "example.com"}/static/giscus`
-        }
-        data-lang={opts.options.lang ?? "en"}
-      ></div>
+      <div>
+        <div
+          class={classNames(displayClass, "giscus")}
+          data-repo={opts.options.repo}
+          data-repo-id={opts.options.repoId}
+          data-category={opts.options.category}
+          data-category-id={opts.options.categoryId}
+          data-mapping={opts.options.mapping ?? "url"}
+          data-strict={boolToStringBool(opts.options.strict ?? true)}
+          data-reactions-enabled={boolToStringBool(opts.options.reactionsEnabled ?? true)}
+          data-input-position={opts.options.inputPosition ?? "bottom"}
+          data-light-theme={opts.options.lightTheme ?? "light"}
+          data-dark-theme={opts.options.darkTheme ?? "dark"}
+          data-theme-url={
+            opts.options.themeUrl ?? `https://${cfg.baseUrl ?? "example.com"}/static/giscus`
+          }
+          data-lang={opts.options.lang ?? "en"}
+        ></div>
+        <blockquote class="callout info" data-callout="info">
+          <div class="callout-title">
+            <div class="callout-icon"></div>
+            <div class="callout-title-inner">
+              <p>Comments are experimental. </p>
+            </div>
+          </div>
+          <div class="callout-content">
+            <p>
+              Comments are currently experimental. Please excuse potential issues that may occur.
+            </p>
+          </div>
+        </blockquote>
+      </div>
     )
   }
 

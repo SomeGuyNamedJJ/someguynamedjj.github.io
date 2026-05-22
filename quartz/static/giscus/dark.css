@@ -1,3 +1,4 @@
+@import "base.css";
 main {
   --neu-background: #1e1e2e;
 
@@ -25,7 +26,7 @@ main {
   --color-prettylights-syntax-markup-changed-text: #cdd6f4;
   --color-prettylights-syntax-markup-changed-bg: rgba(249, 226, 175, 0.4);
   --color-prettylights-syntax-markup-ignored-text: #cdd6f4;
-  --color-btn-text: #cdd6f4;
+  --color-btn-text: #cba6f7;
   --color-btn-bg: #313244;
   --color-btn-border: #45475a;
   --color-btn-hover-bg: #45475a;
@@ -83,35 +84,5 @@ main .gsc-comment-box-textarea::placeholder {
   color: #a6adc8;
 }
 main .gsc-loading-image {
-  background-image: url("https://giscus.catppuccin.com/assets/loading.gif");
-}
-
-.gsc-reactions {
-  padding-top: 10px;
-  margin: auto;
-  padding: 3px 10px 10px 10px;
-  border-radius: 5px;
-  box-shadow:
-    4px 4px 10px var(--neu-dark),
-    -4px -4px -4px var(--neu-light);
-  min-width: 200px;
-}
-
-.btnGroup {
-  background-color: transparent;
-  overflow: visible;
-}
-
-.btnGroup-item {
-  background: var(--neu-background);
-  font-weight: initial;
-  border: transparent;
-  padding-left: 8px;
-  padding-right: 8px;
-}
-
-.btnGroup-item--selected {
-  box-shadow:
-    4px 4px 10px var(--neu-dark),
-    -4px -4px 10px var(--neu-light);
+  background-image: url("https://1nteresting.name/favicon.ico");
 }

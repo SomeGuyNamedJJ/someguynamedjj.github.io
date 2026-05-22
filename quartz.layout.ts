@@ -17,6 +17,8 @@ export const sharedPageComponents: SharedLayout = {
         lang: "en",
         inputPosition: "top",
         mapping: "pathname",
+        // Uncomment if testing local changes to /static/giscus
+        // themeUrl: "http://localhost:8080/static/giscus",
       },
     }),
     Component.MobileOnly(Component.CustomExplorer()),
@@ -24,9 +26,9 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       All_Pages: "/Explorer",
-      Repository: "https://to.1nteresting.name/gh/1nteresting.name",
       Stance_on_Generative_AI: "/Stance-on-Generative-AI",
       RSS_Feed: "/RSS-Guide",
+      Source_Code: "https://to.1nteresting.name/gh/1nteresting.name",
       Color_Theme: "https://catppuccin.com/",
       Design_Style: "https://neumorphism.io/",
     },
