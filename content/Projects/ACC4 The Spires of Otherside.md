@@ -11,9 +11,12 @@ tags:
 > [!info] This project is now inactive.
 > That means that there will be no more updates to this project unless it is marked as Active again.
 
+> [!warning] I do not support the actions of AvidMc.
+> It has recently (2026-06-07) come out that AvidMc was incredibly manipulative of members of Skyblock Kingdoms, a SMP server they participated in. I detail this more in my [Blog Post](/Blog/Response-to-the-AvidMc-Situation).
+
 # About this Project
 
-This is a map made for ACC4, a competition made by [AvidMc](https://youtube.com/@AvidMc) in the span of a month in the map made for Part 1 by [Goaty](https://www.planetminecraft.com/project/acc-4-the-spires-of-otherside).
+This is a map made for ACC4, a competition made by AvidMc in the span of a month in the map made for Part 1 by [Goaty](https://www.planetminecraft.com/project/acc-4-the-spires-of-otherside).
 
 In this map, you must climb your way up Xaleem's Central Tower by defeating Minibosses in some of the outer towers.
 

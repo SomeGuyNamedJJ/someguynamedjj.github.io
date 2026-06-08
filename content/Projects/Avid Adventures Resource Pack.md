@@ -9,19 +9,19 @@ tags:
 > [!info] This project is now inactive.
 > That means that there will be no more updates to this project unless it is marked as Active again.
 
+> [!warning] I do not support the actions of AvidMc.
+> It has recently (2026-06-07) come out that AvidMc was incredibly manipulative of members of Skyblock Kingdoms, a SMP server they participated in. I detail this more in my [Blog Post](/Blog/Response-to-the-AvidMc-Situation).
+
 # About this Project
 
-This is a pack for [AvidMc](https://youtube.com/@AvidMc)'s Patron-Only Adventure Map that aims to make custom textures for as many items as possible.
+This is a pack for AvidMc's Patron-Only Adventure Map that aims to make custom textures for as many items as possible.
 
-To play Avid Adventures, you need to be a Patron, Discord Subscriber, YouTube Member or Twitch Subscriber of [AvidMc](https://youtube.com/@AvidMc) at the Adventurer Tier (Tier 2 on Twitch).
-
-To use the pack on the server, you must have [CIT Resewn](https://modrinth.com/mod/cit-resewn). You can also use [OptiFine](https://optifine.net/downloads), but it is no longer officially supported.
+To use the pack, you must have [CIT Resewn](https://modrinth.com/mod/cit-resewn). You can also use [OptiFine](https://optifine.net/downloads), but it is no longer officially supported.
 
 Minecraft Version: 1.20.1
 
 <div class="pill-container">
     <div class="pill-item"><a href="https://to.1nteresting.name/avidpack/discord">Join the Discord</a></div>
-    <div class="pill-item"><a href="https://to.1nteresting.name/avidpack/repo">View Repository</a></div>
 </div>
 
 # Images
