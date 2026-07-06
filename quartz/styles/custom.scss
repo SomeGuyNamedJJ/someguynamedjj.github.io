@@ -1,4 +1,5 @@
 @use "./base.scss";
+@use "./blocklist.scss";
 
 // put your custom CSS here!
 
@@ -417,6 +418,10 @@ blockquote ul {
   p {
     margin: 0px;
   }
+}
+
+.breadcrumb-container {
+  flex-flow: nowrap;
 }
 
 .pill-container p {

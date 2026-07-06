@@ -1,0 +1,104 @@
+@font-face {
+  font-family: Seven;
+  src: url(https://assets.1nteresting.name/s/f/seven.woff2);
+}
+@font-face {
+  font-family: Ten;
+  src: url(https://assets.1nteresting.name/s/f/ten.woff2);
+}
+
+.blocklist {
+  box-shadow:
+    4px 4px 10px var(--neu-dark),
+    -4px -4px 10px var(--neu-light);
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: var(--neu-background);
+  border-style: solid;
+  background-image: url(https://assets.1nteresting.name/s/i/bg/blocks.png);
+  background-repeat: repeat;
+}
+
+.blocklist p {
+  font-family: Seven, Inter, Arial, sans-serif;
+}
+.blocklist h1,
+.blocklist h2 {
+  font-family: Ten, Inter, Arial, sans-serif;
+}
+.blocklist strong {
+  color: #00b8d4 !important;
+}
+
+.blocklist p,
+.blocklist h1,
+.blocklist h2,
+.blocklist code {
+  color: white;
+}
+
+.blocklist code {
+  background: transparent;
+}
+
+.blocklist p,
+.blocklist h1,
+.blocklist h2,
+.blocklist pre {
+  background:
+    linear-gradient(to top, #444 2px, transparent 0),
+    linear-gradient(to bottom, #444 2px, transparent 0),
+    linear-gradient(to left, #444 2px, transparent 0),
+    linear-gradient(to right, #444 2px, transparent 0);
+  background-color: #232324;
+  border: 2px black solid;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 0px;
+}
+
+.blocklist .pill-container {
+  margin: 10px;
+}
+
+.blocklist a {
+  color: #91d7e3;
+}
+
+.mc-button a,
+.blocklist .clipboard-button {
+  color: white;
+  background:
+    conic-gradient(from 180deg at 2px calc(100% - 2px), #7c7c7d 90deg, transparent 0),
+    conic-gradient(from 0 at calc(100% - 2px) 2px, #7c7c7d 90deg, transparent 0),
+    linear-gradient(to top, #5a5b5c 2px, transparent 0),
+    linear-gradient(to bottom, #6d6d6e 2px, transparent 0),
+    linear-gradient(to left, #5a5b5c 2px, transparent 0),
+    linear-gradient(to right, #6d6d6e 2px, transparent 0);
+  background-color: #48494a;
+  border: none;
+  border-bottom: 5px solid #313233;
+}
+
+.blocklist .clipboard-button {
+  border-radius: 0px;
+  margin-top: 0px;
+}
+
+.mc-button a {
+  font-family: Seven, Inter, Arial, sans-serif;
+  width: 100%;
+  height: calc(100% - 5px - 8px);
+  display: block;
+  text-align: center;
+  padding: 0px !important;
+  padding-top: 8px !important;
+  border-radius: 0px;
+  line-height: initial;
+}
+
+.mc-button {
+  height: 35px;
+  width: 160px;
+  border: 2px black solid;
+}

@@ -90,5 +90,16 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.DesktopOnly(Component.CustomExplorer()),
   ],
-  right: [],
+  right: [
+    Component.DesktopOnly(
+      Component.Graph({
+        localGraph: {
+          linkDistance: 20,
+          repelForce: 0.1,
+          enableRadial: true,
+        },
+      }),
+    ),
+    Component.DesktopOnly(Component.TableOfContents()),
+  ],
 }
