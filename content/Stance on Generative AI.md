@@ -43,5 +43,8 @@ An example of that disclosure when a video does feature AI-generated content is 
 > [!info] 
 > These disclosures will not be featured on unlisted speedrun videos, which will never use Generative AI.
 
+> [!info]
+> Due to YouTube poilcy, videos may not include links and instead ask to 'check my website'.
+
 # Accountability
 For the purposes of holding me accountable, you can [view the history of this page](https://to.1nteresting.name/ai/history).

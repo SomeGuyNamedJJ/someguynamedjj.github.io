@@ -21,6 +21,7 @@ export const sharedPageComponents: SharedLayout = {
         // themeUrl: "http://localhost:8080/static/giscus",
       },
     }),
+    Component.MobileOnly(Component.AIDisclosure()),
     Component.MobileOnly(Component.CustomExplorer()),
   ],
   footer: Component.Footer({
@@ -69,6 +70,7 @@ export const defaultContentPageLayout: PageLayout = {
       }),
     ),
     Component.DesktopOnly(Component.TableOfContents()),
+    Component.DesktopOnly(Component.AIDisclosure()),
   ],
 }
 
@@ -101,5 +103,6 @@ export const defaultListPageLayout: PageLayout = {
       }),
     ),
     Component.DesktopOnly(Component.TableOfContents()),
+    Component.DesktopOnly(Component.AIDisclosure()),
   ],
 }

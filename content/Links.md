@@ -4,20 +4,20 @@ comments: false
 Below, you can find various important links. Most people would have this be their entire website, but this is just a footnote here.
 
 <div class="links-grid">
-    <a class="platform-container" href="https://to.1nteresting.name/gh" target="_blank">
-        <div class="platform-title">GitHub</div>
-        <div class="username">An1nterestingName</div>
-        For open-source projects made by me, and contributions to open-source projects that I've made.
-    </a>
     <a class="platform-container" href="https://to.1nteresting.name/yt" target="_blank">
         <div class="platform-title">YouTube</div>
         <div class="username">@an1nterestingname</div>
-        Showcases of projects created by me, and anything I feel like posting. I don't use this often at the moment, but plan to.
+        I upload videos about games or projects and stream games here.
     </a>
     <a class="platform-container" href="https://to.1nteresting.name/twitch" target="_blank">
         <div class="platform-title">Twitch</div>
         <div class="username">an1nterestingname</div>
-        Streams, or chatting on others' streams. I don't use this often.
+        I stream games here.
+    </a>
+    <a class="platform-container" href="https://to.1nteresting.name/gh" target="_blank">
+        <div class="platform-title">GitHub</div>
+        <div class="username">An1nterestingName</div>
+        For open-source projects made by me, and contributions to open-source projects that I've made.
     </a>
     <a class="platform-container" href="https://to.1nteresting.name/pmc" target="_blank">
         <div class="platform-title">PlanetMinecraft</div>
