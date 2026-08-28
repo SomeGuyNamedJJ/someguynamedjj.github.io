@@ -27,7 +27,6 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       All_Pages: "/Explorer",
-      Stance_on_Generative_AI: "/Stance-on-Generative-AI",
       RSS_Feed: "/RSS-Guide",
       Source_Code: "https://to.1nteresting.name/gh/1nteresting.name",
       Color_Theme: "https://catppuccin.com/",

@@ -1,50 +1,43 @@
 ---
-date: 2026-05-22
+date: 2026-08-28
 comments: false
+tags: AI
 ---
-Generative AI is quite a contested topic on the internet, and in this page I will detail my opinions on Generative AI and how I disclose content created by Generative AI.
+# My Opinion
 
-While I believe that Generative AI can be useful in some cases, in most situations it is harmful to everyone involved, other than AI companies' shareholders. It harms people's jobs by causing layoffs, it harms the environment by excessive water and power use, and it can even harm users by causing them to rely more on Generative AI than their own brains..
+Use of Generative AI is becoming more and more prevalent, with no signs of stopping. However, I believe that the use of Generative AI for 'art' or programming is predominantly due to laziness and disregard of Quality Control. Can something that works great be created using Generative AI? Yes. Is it common for something created using Generative AI to work great? No.
+
+Alongside from the quality issues it has, it also can negatively impact jobs, the environment, and the mental capacity of its' users, assuming said mental capacity wasn't already damaged beforehand.
+
+Now, I have little interest in using Generative AI to create content to feature on this site, or any social media profiles I operate. However, due to the current internet landscape, it is often impossible to avoid AI-generated content in certain situations. As such, I have created a system that will handle disclosure of Generative AI if it is to ever be used.
 
 # AI-Generated Content Disclosures
 
-For these reasons, I intend to disclose content that was created with the use of Generative AI. Depending on where the content is made avaliable, the disclosure will be formatted differently.
+## This site
+All pages on this site have a small box (displayed on the bottom right on desktop, and at the bottom of the page on mobile) which will state if Generative AI has been used and also what it has been used for.[^1]
 
-> [!info] Old content may not have disclosures.
-> AI-generated content disclosures for any content created by me only started after 2026-02-15. Any content released before this may be inconsistent on the method it discloses AI-generated content or whether it discloses it at all. Some content may have a disclosure added retroactively.
-
-## 1nteresting.name
-If content featured on this website was created by Generative AI, a disclosure such as the one below will be included at the top of the page.
-
-> [!warning] {SAMPLE} This project contains AI-Generated content.
-> Some content shown in this project may have been created with **Generative AI**.
-> 
-> The following Generative AI tools have been used:
-> 
-> - **ChatGPT has been used to generate portions of code used in this project.**
->
-> See [My Stance on Generative AI](/Stance-on-Generative-AI) for more information.
+[^1]: The current implementation of this feature does not support stating that Generative AI has been used, simply because no page on this site actually uses Generative AI.
 
 ## YouTube
-Content featured on my YouTube channel will always display a disclosure of whether Generative AI was used in that video in the description. An example of that disclosure when a video does not feature AI-generated content is shown below.
+All public YouTube videos posted by the user `@an1nterestingname` will have a disclaimer in the description stating the following:
 
-> {SAMPLE} This video does not feature any content created using Generative AI. See [https://to.1nteresting.name/ai](https://to.1nteresting.name/ai) for more information.
+> This video does not feature any content created using Generative AI. See my website for more details.
 
-An example of that disclosure when a video does feature AI-generated content is shown below.
+However, if there is usage of Generative AI in the video, this message will be displayed instead:
 
-> {SAMPLE} This video features content created using Generative AI.
-> 
-> The following Generative AI tools have been used:
-> 
-> Large Language Models have been used to generate portions of code used in a project featured in this video.
-> 
-> See [https://to.1nteresting.name/ai](https://to.1nteresting.name/ai) for more information.
+> This video features content created using Generative AI (`Content Type`). See my website for more details.
 
-> [!info] 
-> These disclosures will not be featured on unlisted speedrun videos, which will never use Generative AI.
+## Twitch
+Currently there are no plans for disclosure of content created using Generative AI due to the fact Twitch does not have many places that this disclosure can be placed. This disclosure will be present in the YouTube VOD of the stream if content created using Generative AI is featured.
 
-> [!info]
-> Due to YouTube poilcy, videos may not include links and instead ask to 'check my website'.
+## GitHub
+The method of disclosing content created using Generative AI will vary depending on the repository, but usually contributions that make use of Generative AI will not be permitted.
+
+## Speedrun.com
+No content uploaded to Speedrun.com will feature content created using Generative AI.
+
+## PlanetMinecraft
+No content uploaded to PlanetMinecraft will feature content created using Generative AI.
 
 # Accountability
 For the purposes of holding me accountable, you can [view the history of this page](https://to.1nteresting.name/ai/history).
